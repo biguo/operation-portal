@@ -1,0 +1,44 @@
+<h1>Admin::Hosts#index</h1>
+<p>Find me in app/views/admin/hosts/index.html.erb</p>
+<%=
+
+
+    @customers1
+%>
+
+<br>
+<%=
+
+    @customers
+%>
+<br>
+http://170.10.10.215/zabbix/api_jsonrpc.php
+
+<input type="button" onclick="sendRequest()" value="button">
+<script>
+
+    function sendRequest(){
+        alert('begin!')
+        var st = new Date();
+        jQuery.ajax({
+            url: 'http://170.10.10.215/zabbix/api_jsonrpc.php?st='+ st.getTime(),
+            type: 'post',
+            dataType:'json',
+            data:{
+                "jsonrpc":"2.0",
+                "method":"apiinfo.version",
+                "id":1,
+                "auth":null,
+                "params":{}
+            },
+            error: function(a) {
+                alert('data validation failed');
+            },
+            success: function(a) {
+                alert(a);
+            }
+        });
+
+    }
+
+</script>

@@ -1,4 +1,33 @@
 OperationPortal::Application.routes.draw do
+
+  root 'admin/hosts#index'
+
+  namespace :admin do
+    resources :hosts do
+      member do
+      end
+
+      collection do
+      end
+    end
+
+    resources :users do
+      member do
+      end
+
+      collection do
+      end
+    end
+
+    resources :items do
+      member do
+      end
+
+      collection do
+      end
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -39,7 +68,7 @@ OperationPortal::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

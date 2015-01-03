@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../EAPM/.idea/EAPM.iml" filepath="$PROJECT_DIR$/../EAPM/.idea/EAPM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../EAWEB/.idea/EAWEB.iml" filepath="$PROJECT_DIR$/../EAWEB/.idea/EAWEB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NtjyBlog/.idea/NtjyBlog.iml" filepath="$PROJECT_DIR$/../NtjyBlog/.idea/NtjyBlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Yulan/.idea/Yulan.iml" filepath="$PROJECT_DIR$/../Yulan/.idea/Yulan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dev_eschool40/.idea/dev_eschool40.iml" filepath="$PROJECT_DIR$/../dev_eschool40/.idea/dev_eschool40.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dev_point/.idea/dev_point.iml" filepath="$PROJECT_DIR$/../dev_point/.idea/dev_point.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fourth/.idea/fourth.iml" filepath="$PROJECT_DIR$/../fourth/.idea/fourth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../list_all/.idea/list_all.iml" filepath="$PROJECT_DIR$/../list_all/.idea/list_all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../manage_4_13/.idea/manage_4_13.iml" filepath="$PROJECT_DIR$/../manage_4_13/.idea/manage_4_13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nt_homeschool/.idea/nt_homeschool.iml" filepath="$PROJECT_DIR$/../nt_homeschool/.idea/nt_homeschool.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/operation-portal.iml" filepath="$PROJECT_DIR$/.idea/operation-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rail2/.idea/rail2.iml" filepath="$PROJECT_DIR$/../rail2/.idea/rail2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../railscasts-master/.idea/railscasts-master.iml" filepath="$PROJECT_DIR$/../railscasts-master/.idea/railscasts-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ruby-china-master/.idea/ruby-china-master.iml" filepath="$PROJECT_DIR$/../ruby-china-master/.idea/ruby-china-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trunk/.idea/trunk.iml" filepath="$PROJECT_DIR$/../trunk/.idea/trunk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unzip/.idea/unzip.iml" filepath="$PROJECT_DIR$/../unzip/.idea/unzip.iml" />
     </modules>
   </component>
 </project>
