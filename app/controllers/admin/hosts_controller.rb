@@ -1,37 +1,56 @@
 class Admin::HostsController < ApplicationController
   def index
-    @customers1 = [{
-                     "jsonrpc" => "2.0",
-                     "method" => "apiinfo.version",
-                     "id" => 1,
-                     "auth" => nil,
-                     "params" => {}
-                 }].to_json
+    # @customers = [{
+    #                   "jsonrpc" => "2.0",
+    #                   "method" => "apiinfo.version",
+    #                   "id" => 1,
+    #                   "auth" => nil,
+    #                   "params" => {}
+    #               }].to_json
 
 
-    @customers = '[{
+#     @customers = '[
+# {
+#                     "jsonrpc":"2.0",
+#                     "method":"apiinfo.version",
+#                     "id":1,
+#                     "auth":null,
+#                     "params":{}
+#                   }
+# ]'
+    @customers = '[
+    {
         "jsonrpc": "2.0",
-        "method": "host.create",
+        "method": "user.login",
         "params": {
-        "host": "Linux server",
-        "interfaces": [
-        {
-            "type": 1,
-        "main": 1,
-        "useip": 1,
-        "ip": "192.168.3.1",
-        "dns": "",
-        "port": "10050"
-    }
-    ]
+        "user": "Admin",
+        "password": "zabbix"
     },
-        "id": 3,
-        "auth": "0424bd59b807674191e7d77572075f33"
-    }]';
+        "id": 1,
+        "auth": null
+    }
+]'
+
+#     @customers =  '[{
+#     "jsonrpc": "2.0",
+#     "method": "host.get",
+#     "params": {
+#         "output": [
+#             "hostid",
+#             "host"
+#         ],
+#         "selectInterfaces": [
+#             "interfaceid",
+#             "ip"
+#         ]
+#     },
+#     "id": 2,
+#     "auth": "0424bd59b807674191e7d77572075f33"
+# }]'
+    puts 'a'
 
     send_data('http://170.10.10.215/zabbix/api_jsonrpc.php',@customers)
     # send_data('http://www.baidu.com',@customers)
-
   end
 
   def new
