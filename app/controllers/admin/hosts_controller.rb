@@ -48,6 +48,7 @@ class Admin::HostsController < ApplicationController
 #     "auth": "0424bd59b807674191e7d77572075f33"
 # }]'
     puts 'a'
+    puts 'a'
 
     send_data('http://170.10.10.215/zabbix/api_jsonrpc.php',@customers)
     # send_data('http://www.baidu.com',@customers)
