@@ -1,8 +1,11 @@
 OperationPortal::Application.routes.draw do
 
+
   root 'admin/hosts#index'
 
   namespace :admin do
+    resources :session
+
     resources :hosts do
       member do
       end

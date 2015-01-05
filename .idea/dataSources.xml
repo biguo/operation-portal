@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1908849452">
+  <component name="DataSourceManagerImpl" format="xml" hash="2227967837">
     <data-source source="LOCAL" name="Rails fourth: development" uuid="f32aff31-b98c-482e-8ae6-13dcc73b5b9c">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -17,6 +17,144 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../fourth/db/production.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails operation-portal: development" uuid="ff65d510-9073-4dc7-8eb6-411db50b8fae">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Depot: development" uuid="18607834-2dc1-428d-91c9-5866b068dffe">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/depot_development</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Depot: test" uuid="c577f370-f1a3-4bef-b9dc-63656e79abb0">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/depot_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Depot: production" uuid="4c03edcb-b3f3-4fff-bc2b-e7b31f6e7915">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/depot_production</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails NtjyBlog: development" uuid="dafcb7ac-2dbe-418d-a9c8-22517f3e5b0d">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.38.35/aurora_ntjy</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails NtjyBlog: test" uuid="50baa741-993d-49ac-bcad-4f8290fe5179">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/jiaxiao360_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails NtjyBlog: production" uuid="1783fd06-8bd7-40eb-9e51-f415d354f0e9">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/aurora_community</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfccdfc5dfd8dfcddfcfdfdedfccdfc5dfd8dfcfdfdcdfcfdfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails assess: development" uuid="7d548712-3cc7-46b2-93d8-72b0149473fc">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/assess_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails assess: test" uuid="37ae8d65-a244-4ed4-b487-3041ff938c91">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/assess_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails assess: production" uuid="a3d646b4-4d80-4ce9-a841-bf8aaba3aa1b">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/assess_production</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails demo_test: development" uuid="0c976ac8-b59a-472f-9c3f-aa8308671e62">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/zero_store</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails demo_test: test" uuid="cb7bb985-0fda-49f1-a46a-6c8c6908391c">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/zero_store</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails demo_test: production" uuid="fead7a7f-ba78-4712-a7e9-f184f23aee47">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://121.8.131.228/zero_store</jdbc-url>
+      <user-name>zero_store</user-name>
+      <user-password>dfd0dfcfdfd8dfc5dff5dfd9dfdedfc5dfd8dfcf</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails dev_eschool40: test" uuid="9e571a4d-0b4d-46f1-af7f-44a8ac66c07f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/192.168.42.9/AURORA</jdbc-url>
+      <user-name>aurora</user-name>
+      <user-password>dfcbdfdfdfd8dfc5dfd8dfcb</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails dev_point: test" uuid="2b3a896d-3152-4fee-8933-e4fd6792903b">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/192.168.42.9/AURORA</jdbc-url>
+      <user-name>aurora</user-name>
+      <user-password>dfcbdfdfdfd8dfc5dfd8dfcb</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ezhihui: development" uuid="fc8bc26b-1063-45cd-af7a-c2a6dc1640aa">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/saas_dev</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ezhihui: test" uuid="02a4d293-c62b-4b88-8f84-9c2a838a88b3">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/saas_test</jdbc-url>
+      <user-name>saas_test</user-name>
+      <user-password>dfd9dfcbdfcbdfd9dff5dfdedfcfdfd9dfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ezhihui: production" uuid="1e8cca02-9959-4653-9ac0-4495bc474f56">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/saas_prod</jdbc-url>
+      <user-name>saas_prod</user-name>
+      <user-password>dfd9dfcbdfcbdfd9dff5dfdadfd8dfc5dfce</user-password>
       <libraries />
     </data-source>
   </component>

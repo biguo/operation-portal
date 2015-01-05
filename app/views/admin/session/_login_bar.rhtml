@@ -1,0 +1,4 @@
+<div id="top">
+  <h1></h1>
+  <p><% if cookies[:user_id] and User.find_by_id(cookies[:user_id]) %> <%= User.find_by_id(cookies[:user_id]).passport%>，您好，欢迎使用安居丽业后台管理系统&nbsp;|&nbsp;<a href="/app/sessions/logout">退出</a><% end  %></p>
+</div>

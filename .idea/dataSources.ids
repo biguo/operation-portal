@@ -9,4 +9,58 @@
   <data-source source="LOCAL" name="Rails fourth: production" uuid="ce67fb39-d486-4b03-b6d8-e8fd32a90a2a">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails operation-portal: development" uuid="ff65d510-9073-4dc7-8eb6-411db50b8fae">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Depot: development" uuid="18607834-2dc1-428d-91c9-5866b068dffe">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Depot: test" uuid="c577f370-f1a3-4bef-b9dc-63656e79abb0">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Depot: production" uuid="4c03edcb-b3f3-4fff-bc2b-e7b31f6e7915">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails NtjyBlog: development" uuid="dafcb7ac-2dbe-418d-a9c8-22517f3e5b0d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails NtjyBlog: test" uuid="50baa741-993d-49ac-bcad-4f8290fe5179">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails NtjyBlog: production" uuid="1783fd06-8bd7-40eb-9e51-f415d354f0e9">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails assess: development" uuid="7d548712-3cc7-46b2-93d8-72b0149473fc">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails assess: test" uuid="37ae8d65-a244-4ed4-b487-3041ff938c91">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails assess: production" uuid="a3d646b4-4d80-4ce9-a841-bf8aaba3aa1b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails demo_test: development" uuid="0c976ac8-b59a-472f-9c3f-aa8308671e62">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails demo_test: test" uuid="cb7bb985-0fda-49f1-a46a-6c8c6908391c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails demo_test: production" uuid="fead7a7f-ba78-4712-a7e9-f184f23aee47">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails dev_eschool40: test" uuid="9e571a4d-0b4d-46f1-af7f-44a8ac66c07f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails dev_point: test" uuid="2b3a896d-3152-4fee-8933-e4fd6792903b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ezhihui: development" uuid="fc8bc26b-1063-45cd-af7a-c2a6dc1640aa">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ezhihui: test" uuid="02a4d293-c62b-4b88-8f84-9c2a838a88b3">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ezhihui: production" uuid="1e8cca02-9959-4653-9ac0-4495bc474f56">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

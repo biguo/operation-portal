@@ -1,0 +1,29 @@
+<%= flash[:warn] %>
+<% if  cookies[:user_id].nil? %>
+    <div class="main">
+      <div class="login_box">
+        <%= form_tag "/admin/session",:method => :post, :id => "login_form", :class => 'required-validate' do -%>
+            <table>
+              <tr>
+                <td>username：</td>
+                <td><input type="text" name="user[username]" id="user_username" class="required max-length-20"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>password：</td>
+                <td><input type="password" name="user[password]" id="user_password"  class="required max-length-30" ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td><button type="submit">login</button></td>
+                <td></td>
+              </tr>
+            </table>
+        <% end -%>
+      </div>
+    </div>
+<% end %>
+<div class="clear"></div>
+
