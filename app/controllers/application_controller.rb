@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   include Authenticated,CoreExtensions
   helper :all # include all helpers, all the time
   before_filter :set_privacy
-
+  require_core_ext
 
   def proof_code(len)
     chars = ('1'..'9').to_a

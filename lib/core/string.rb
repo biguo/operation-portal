@@ -5,4 +5,10 @@ class String
   def to_utf8
     Iconv.iconv("UTF-8//IGNORE","GBK//IGNORE",self).to_s
   end
-end 
+  def remove_brackets
+    self.gsub(/[\[\]]/, '')
+  end
+  def add_brackets
+    '[' + self + ']'
+  end
+end
