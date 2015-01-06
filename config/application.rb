@@ -9,6 +9,7 @@ Bundler.require(:default, Rails.env)
 module OperationPortal
   class Application < Rails::Application
     config.autoload_paths += %W(#{config.root}/lib)
+    config.autoload_paths += Dir["#{config.root}/app/controllers/concerns", "#{config.root}/app/models/concerns"]
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

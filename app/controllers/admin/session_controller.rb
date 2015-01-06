@@ -8,56 +8,23 @@ class Admin::SessionController < ApplicationController
   def new
   end
 
-  def new_json(method_name,auth,*args)
-    jj = yield(args)
-    # kkk = '[' + {
-    #     :jsonrpc => "2.0",
-    #     :method => method_name,
-    #     :id=> 1,
-    #     :auth => nil,
-    #     :params => jj
-    # }.to_json.gsub(/[\[\]]/, '') + ']'
-
-    return jj  
-  end
-  # Brackets
-
-  #   用户登录
+  #  login
   def create
-    # user = User.where('username = ? and password = ?',user_params[:username].strip,Digest::MD5.hexdigest(user_params[:password].downcase)).first
-    # if user
-    @customers = '[
-    {
-        "jsonrpc": "2.0",
-        "method": "user.login",
-        "params": {
-        "user": "Admin",
-        "password": "zabbix"
-    },
-        "id": 1,
-        "auth": null
-    }
-]'
-    @d = new_json('user.login',nil,:user => 'Admin',:password => 'zabbix'){|args|
-      args.to_json.remove_brackets
-    }
+   report = User.login(:user => user_params[:username],:password => user_params[:password])
+   response = JSON.parse(report)[0]
+   if response['result']
+     cookies[:user_id] = {:value => response['id'], :domain => '', :path => '/', :secure => false}
+     cookies[:auth] = {:value => response['result'], :domain => '', :path => '/', :secure => false}
+     redirect_to admin_hosts_path
+   else
+     warn =  response['error']['data']
+     cookies.delete(:user_id, :domain => '')
+     cookies.delete(:auth, :domain => '')
+     flash[:warn] = warn
+     redirect_to new_admin_session_path
+   end
 
-    # send_data('http://170.10.10.215/zabbix/api_jsonrpc.php',@d)
 
-      puts  @customers
-
-      # cookies[:user_id] = {:value => user.id.to_s, :domain => '', :path => '/', :secure => false}
-      # cookies[:auth] = {:value => user.auth.to_s, :domain => '', :path => '/', :secure => false}
-      # cookies.each do |x,y|
-      #   puts x + ' => ' + y + "\r"
-      # end
-      # redirect_to "/app/sessions/new"
-    # else
-    #   cookies.delete(:user_id, :domain => '')
-    #   cookies.delete(:auth, :domain => '')
-    #   flash[:warn] = 'The username or password is incorrect. Please enter the correct one！'
-    #   redirect_to '/admin/session/new'
-    # end
   end
 
   def show

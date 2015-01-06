@@ -15,22 +15,22 @@ class ApplicationController < ActionController::Base
     return code_array.to_s
   end
 
-  def send_data(url,data)
-    require 'net/http'
-    require 'uri'
-    require 'json'
-
-    uri = URI.parse(url)
-    puts uri.inspect
-    req = Net::HTTP::Post.new(url,{'Content-Type' => 'application/json'})
-    req.body = data
-    res = Net::HTTP.new(uri.host,uri.port).start{|http| http.request(req)}
-    puts res.body
-  end
+  # def send_data(url,data)
+  #   require 'net/http'
+  #   require 'uri'
+  #   require 'json'
+  #
+  #   uri = URI.parse(url)
+  #   puts uri.inspect
+  #   req = Net::HTTP::Post.new(url,{'Content-Type' => 'application/json'})
+  #   req.body = data
+  #   res = Net::HTTP.new(uri.host,uri.port).start{|http| http.request(req)}
+  #   puts res.body
+  # end
 
   private
   def set_privacy
-    response.headers["P3P"]=%|CP="NOI DSP COR NID ADMa OPTa OUR NOR"|
+    response.headers['P3P']=%|CP='NOI DSP COR NID ADMa OPTa OUR NOR'|
   end
 
 end
